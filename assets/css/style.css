@@ -326,17 +326,12 @@ h3{
     font-size: 15px;
     color: #777;
 }
-.about-btn button{
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    background: var(--first-color);
-    color: var(--color-white);
-    border-radius: 30px;
+.about-info img {
+    max-width: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
 }
-.about-btn button:hover{
-    background: var(--first-color-hover);
-}
+
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
@@ -529,6 +524,9 @@ footer{
     margin-top: 10px;
 }
 
+.row {
+    margin-bottom: 20px; /* Adjust this value as needed */
+}
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){
