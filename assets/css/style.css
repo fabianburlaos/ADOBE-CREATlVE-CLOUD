@@ -327,7 +327,8 @@ h3{
     color: #777;
 }
 .about-info img {
-    max-width: 200px;
+    margin-bottom: 10px;
+    max-width: 180px;
     margin-right: 20px;
     border-radius: 50%;
 }
@@ -335,23 +336,29 @@ h3{
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
-    margin: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 30px 70px;
+    padding-inline: 20px;
+    width: 100%;
 }
 .skills-header{
     margin-bottom: 30px;
 }
-.skills-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+.skills-box p{
+    text-align: center;
+    font-size: 15px;
+    color: #777;
 }
-.skills-list span{
-    font-size: 14px;
-    background: var(--first-color);
-    color: var(--color-white);
-    padding: 2px 10px;
-    border-radius: 5px;
+.skills-box img {
+    margin-bottom: 10px;
+    max-width: 180px;
+    margin-right: 20px;
+    border-radius: 50%;
 }
+
 
 /* ----- PROJECTS BOX ----- */
 .project-container{
@@ -444,6 +451,9 @@ h3{
 }
 
 /* ----- CONTACT FORM ----- */
+.form{
+    margin: 20px;
+}
 .form-control{
     display: flex;
     flex-direction: column;
